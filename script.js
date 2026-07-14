@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         <h2 class="myanmar-text" style="color: white; margin-bottom: 30px;">ကျေးဇူးတင်ပါသည်!</h2>
                         <p class="myanmar-text" style="margin-bottom: 20px;">ဆက်သွယ်စုံစမ်းရန်</p>
                         <div class="contact-links">
-                            <a href="https://t.me/@Leo_of_TheMars" target="_blank" class="btn-link myanmar-text telegram-btn">Telegram သို့ ဆက်သွယ်ရန်</a>
-                            <a href="viber://chat?number=959450064323" class="btn-link myanmar-text viber-btn">Viber သို့ ဆက်သွယ်ရန်</a>
-                        </div>
+    <a href="https://t.me/Leo_of_TheMars" target="_blank" class="btn-link myanmar-text telegram-btn">Telegram သို့ ဆက်သွယ်ရန်</a>
+    <a href="viber://chat?number=%2B959450064323" class="btn-link myanmar-text viber-btn">Viber သို့ ဆက်သွယ်ရန်</a>
+</div>
                         <div class="footer">The End</div>
                        
 <div class="footer">
