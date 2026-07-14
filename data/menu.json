@@ -5,7 +5,7 @@
       "title": "AI Unbound",
       "image": "images/ai_unbound.png",
       "description": "AI နည်းပညာအကြောင်း သိကောင်းစရာ\nတန်ဖိုး - ၇၀၀၀ ကျပ်",
-      "link_text": "https://facebook.com/aigurumm",
+      "link_text": "အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
       "link_url": "https://facebook.com/aigurumm"
     },
     {
@@ -21,6 +21,30 @@
       "title": "Python Basic",
       "image": "images/basicPython.png",
       "description": "Python Programming Language အကြောင်း (အခြေခံ)\nတန်ဖိုး - ၅၀၀၀ ကျပ်",
+      "link_text": "အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
+      "link_url": "https://facebook.com/aigurumm"
+    },
+    {
+      "order": 4,
+      "title": "Prompt Engineering",
+      "image": "images/promptE.png",
+      "description": "Prompt Engineering အကြောင်း အပြည့်အစုံ\nတန်ဖိုး - ၇၀၀၀ ကျပ်",
+      "link_text": "အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
+      "link_url": "https://facebook.com/aigurumm"
+    },
+    {
+      "order": 5,
+      "title": "Scratch Coding for Kids",
+      "image": "images/Scratch.png",
+      "link_url": "https://facebook.com/aigurumm",
+      "link_text": "အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
+      "description": "ကလေး/ လူငယ်များအတွက်  Programming အခြေခံ\nတန်ဖိုး - ၅၀၀၀ ကျပ်"
+    },
+    {
+      "image": "images/fraudAI.png",
+      "order": 6,
+      "title": "Security for AI Fraud ",
+      "description": "Online လိမ်လည်လှည့်ဖျားမှုရန်မှ ကာကွယ်ရန် AI နည်းပညာ ဗဟုသုတများ\nတန်ဖိုး - ၅၀၀၀ ကျပ်",
       "link_text": "အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
       "link_url": "https://facebook.com/aigurumm"
     }
