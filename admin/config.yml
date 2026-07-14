@@ -23,7 +23,7 @@ collections:
               - {label: "စာသား", name: "description", widget: "text"}
               - {label: "Link စာသား (ဥပမာ - ကြည့်ရန်)", name: "link_text", widget: "string", required: false}
               - {label: "Link URL (ဥပမာ - https://...)", name: "link_url", widget: "string", required: false}
-
+=======
 backend:
   name: git-gateway
   branch: main 
@@ -49,3 +49,4 @@ collections:
               - {label: "စာသား", name: "description", widget: "text"}
               - {label: "Link စာသား (ဥပမာ - ကြည့်ရန်)", name: "link_text", widget: "string", required: false}
               - {label: "Link URL (ဥပမာ - https://...)", name: "link_url", widget: "string", required: false}
+
