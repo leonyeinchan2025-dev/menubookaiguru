@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 backend:
   name: git-gateway
   branch: main 
@@ -23,3 +24,30 @@ collections:
               - {label: "စာသား", name: "description", widget: "text"}
               - {label: "Link စာသား (ဥပမာ - ကြည့်ရန်)", name: "link_text", widget: "string", required: false}
               - {label: "Link URL (ဥပမာ - https://...)", name: "link_url", widget: "string", required: false}
+=======
+backend:
+  name: git-gateway
+  branch: main 
+
+media_folder: "images" 
+public_folder: "images" 
+
+collections:
+  - name: "menu_data"
+    label: "Menu Data (အချက်အလက်များ ပြင်ရန်)"
+    files:
+      - label: "Menu စာမျက်နှာများ အားလုံး"
+        name: "menu"
+        file: "data/menu.json"
+        fields:
+          - label: "Menu စာရင်းများ (အသစ်ထပ်တိုးရန် Add ကို နှိပ်ပါ)"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "အစဉ်လိုက်နံပါတ် (ဥပမာ - 1, 2, 3)", name: "order", widget: "number"}
+              - {label: "ခေါင်းစဉ်", name: "title", widget: "string"}
+              - {label: "ပုံ (Image/GIF)", name: "image", widget: "image"}
+              - {label: "စာသား", name: "description", widget: "text"}
+              - {label: "Link စာသား (ဥပမာ - ကြည့်ရန်)", name: "link_text", widget: "string", required: false}
+              - {label: "Link URL (ဥပမာ - https://...)", name: "link_url", widget: "string", required: false}
+>>>>>>> ece231e03ab02186878b68fc6580d6d660d7d82e

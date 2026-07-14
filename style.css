@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* --- ကိုယ်ပိုင် မြန်မာဖောင့် ချိတ်ဆက်ခြင်း --- */
 /* ၁။ ခေါင်းစဉ်များအတွက် ဖောင့် ကြေညာခြင်း */
 @font-face {
@@ -191,3 +192,198 @@ body {
     font-size: 12px;
     color: #aaa;
 }
+=======
+/* --- ကိုယ်ပိုင် မြန်မာဖောင့် ချိတ်ဆက်ခြင်း --- */
+/* ၁။ ခေါင်းစဉ်များအတွက် ဖောင့် ကြေညာခြင်း */
+@font-face {
+    font-family: 'MyTitleFont';
+    src: url('fonts/A18_MyanKaYit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ၂။ စာပိုဒ် (Body Text) များအတွက် ဖောင့် ကြေညာခြင်း */
+@font-face {
+    font-family: 'MyBodyFont';
+    src: url('fonts/Aka01-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ခေါင်းစဉ် (h1, h2, h3) အားလုံးကို Title Font သတ်မှတ်ခြင်း */
+h1,
+h2,
+h3 {
+    font-family: 'MyTitleFont', 'Segoe UI', sans-serif !important;
+}
+
+/* စာပိုဒ်၊ ခလုတ်စာသား၊ လင့်ခ် (p, span, a) အားလုံးကို Body Font သတ်မှတ်ခြင်း */
+p,
+span,
+a,
+div {
+    font-family: 'MyBodyFont', 'Segoe UI', sans-serif !important;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* အခြေခံ English font နှင့် မြန်မာစာအတွက် ချိတ်ဆက်ထားသော font ကို တွဲသုံးမည် */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'MyMyanmarFont';
+}
+
+
+body {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* စာမျက်နှာ တစ်ရွက်ချင်းစီ၏ ပုံစံ */
+/* စာမျက်နှာ တစ်ရွက်ချင်းစီ၏ ပုံစံ (အတွင်းဘောင်ပါဝင်သည်) */
+.my-page {
+    background-color: #ffffff;
+    /* အနားကွပ် ဘောင်အလှ ထည့်ခြင်း */
+    border: 4px double #b3c0d1; 
+    border-radius: 5px;
+    box-shadow: inset -5px 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* မျက်နှာဖုံးနှင့် ကျောဖုံး အရောင် (အတွင်းဘောင်ပါဝင်သည်) */
+.cover {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    text-align: center;
+    justify-content: center !important;
+    
+    /* မျက်နှာဖုံးအတွက် အတွင်းဘောင်အလှ */
+    border: none;
+    outline: 2px solid rgba(255, 255, 255, 0.5); /* အဖြူရောင် မှိန်မှိန်ဘောင် */
+    outline-offset: -15px; /* ဘောင်ကို အတွင်းဘက်သို့ ၁၅ ပစ်ဆယ် ရွှေ့ထားခြင်း */
+    position: relative;
+}
+.cover h1,
+.cover h2 {
+    margin-bottom: 15px;
+}
+
+/* --- Logo ပုံစံ --- */
+.logo-image {
+    width: 120px;
+    /* Logo အရွယ်အစားကို လိုသလို ချိန်ညှိပါ */
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    /* အဝိုင်းပုံစံ ဖြစ်ချင်လျှင် ထားပါ */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    /* Logo နောက်ခံအဖြူ ဖြစ်စေရန် */
+    padding: 5px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-content h2 {
+    color: #2a5298;
+    margin-bottom: 10px;
+}
+
+/* GIF / Image ပုံစံ */
+.page-image {
+    width: 80%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.cover p {
+    color: #ddd;
+}
+
+/* --- ခလုတ် Link များ --- */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+}
+
+/* ခလုတ် Link ပုံစံ */
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+    
+    /* စာသားကျော်မထွက်စေရန် ပြင်ဆင်ထားသော အပိုင်း */
+    width: 90%; 
+    max-width: 250px;
+    word-wrap: break-word; /* စာရှည်လျှင် အောက်တစ်ကြောင်း အလိုအလျောက် ဆင်းမည် */
+    white-space: normal;
+    text-align: center;
+}
+
+.btn-link:hover {
+    background-color: #ff4757;
+}
+
+.telegram-btn {
+    background-color: #0088cc;
+    /* Telegram အရောင် */
+}
+
+.telegram-btn:hover {
+    background-color: #0077b3;
+}
+
+.viber-btn {
+    background-color: #7360f2;
+    /* Viber အရောင် */
+}
+
+.viber-btn:hover {
+    background-color: #5c4dcc;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+>>>>>>> ece231e03ab02186878b68fc6580d6d660d7d82e
